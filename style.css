@@ -9,7 +9,7 @@ body{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
-     overflow-y:hidden; 
+    overflow-y:hidden; 
 }
 #nav{
     position: relative;
@@ -35,7 +35,8 @@ nav{
     height: 20px;
     width: 20px;
 }
-figcaption{position: relative;
+figcaption{
+    position: relative;
     top: -25px;
     left: 4px;
     font-size: 20px;
@@ -238,6 +239,7 @@ h2{
     background-color: aqua;
     height: 160px;
     width: 150px;
+
 }
 #show4{
     position: relative;
@@ -269,4 +271,120 @@ h2{
 #img9{
     height: 160px;
     width: 150px;
+}
+@media(max-width:380px){
+    body{
+        height: 870px;
+        width: 550px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    nav{
+        display: none;
+    }
+    #nav{
+        display: none;
+    }
+    #foot{
+        background-color: rgb(31, 31, 31);
+        position: relative;
+        top: 820px;
+        left: 0px;
+        width: 550px;
+    }
+    #top4,#top5{
+        display: none;
+    }
+    #top1{
+        position: relative;
+        left: 30px;
+        height: 50px;
+    }
+    #likedSong{
+        height: 50px;
+    }
+    #heart2{
+        height: 10px;
+        position: relative;
+        left: -30px;
+        top: -20px;
+    }
+    #h41{
+        position: relative;
+        top: -75px;
+        left: 100px;
+    }
+    h1{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    #top2{
+        position: relative;
+        top: 80px;
+        left: 30px;
+        height: 50px;
+    }
+    #h42{
+        position: relative;
+        top: -25px;
+        left: 100px;
+    }
+    #img4{
+        height: 50px;
+    }
+    #top3{
+        position: relative;
+        top: 100px;
+        left: 30px;
+        height: 50px;
+    }
+    #img3{
+        height: 50px;
+    }
+    #h43{
+        position: relative;
+        top: 25px;
+        left: 100px;
+    }
+    #recomm{
+        position: relative;
+        top: 300px;
+        left: 30px;
+    }
+    #shows{
+        position: relative;
+        top: 270px;
+        left: -210px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        gap: 30px;
+        }
+    #show1,#show2,#show3,#show4{
+        height: 180px;
+        width: 180px;
+    }
+    #img9{
+        height: 180px;
+        width: 180px;
+    }
+    #option{
+        display: none;
+    }
+    #play{
+        width: 500px;
+        left: 20px;
+    }
+    #likeg{
+        display: none;
+    }
+    #dreamOn,#nefex{
+        display: none;
+    }
+    #last{
+        display: none;
+    }
+    #show5,#show6{
+        display: none;
+    }
 }
